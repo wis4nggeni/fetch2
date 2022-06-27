@@ -67,8 +67,8 @@ dependencies {
 
 publish {
     userOrg = 'tonyofrancis'
-    groupId = 'androidx.tonyodev.fetch2rx'
-    artifactId = 'xfetch2rx'
+    groupId = 'com.github.wis4nggeni.fetch2rx'
+    artifactId = 'fetch2rx'
     publishVersion = library_version
     desc = 'RxJava extensions for Fetch2'
     website = 'https://github.com/tonyofrancis/fetch'
