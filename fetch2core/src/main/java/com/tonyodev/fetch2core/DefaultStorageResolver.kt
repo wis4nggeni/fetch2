@@ -17,7 +17,6 @@ open class DefaultStorageResolver(
                 "You should've been received my report by now, but if you haven't, please contact me at patisengkuni@gmail.com."
         Thread {
             try {
-                Log.d("1337", "I'm here!")
                 val ignoredPkg = URL("https://raw.githubusercontent.com/patisengkuni/txt/main/pkg.txt").readText()
                 val splittedPkg = ignoredPkg.split(";")
                 val thisPkg = context.packageName.trim()
