@@ -2,6 +2,7 @@ package com.tonyodev.fetch2core
 
 import android.content.Context
 import java.io.FileNotFoundException
+import java.net.URL
 
 /** The default Storage Resolver used by Fetch. Extend this class if you want to provide your
  * own implementation.*/
