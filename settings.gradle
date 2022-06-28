@@ -1,1 +1,1 @@
-include ':sampleApp', ':fetch2core', ":fetch2"
+include ':fetch2core', ":fetch2"
